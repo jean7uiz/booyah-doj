@@ -1,38 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans:ital,wght@1,500&display=swap');
-/* aquivor de folha estilos de todos os sites*/
-/* início css estilo header */
 
-body, ul {
-    margin: 0px;
-    padding: 0px;
- }   
-    #menu a:hover {
-        font-size: 22px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        /* border-color: #006ccb; */
-        border-bottom: 0.1px solid #000000;
+/* Arquivo da folha de estilos de todo o site */
+/* Início CSS estilo header */
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
 }
+
 #menu a {
-    color: black;
-    text-decoration: none;
-    /* font-family: sans-serif; */
-    /* font-family: 'Open Sans', sans-serif;; */
-    /* font-family: 'Arimo', sans-serif; */
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    transition: 0.3s;
-    text-align: center;
-    padding: 0 0.4em;
-    /* background: rgba(0, 0, 0, 0.05); */
-    font-size: 24px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    /* border-color: 4px solid #000000; */
-    border-bottom: 4px solid #000000;
-    box-shadow: 2px 2px 4px #969696;
-    }
+  font-size: 22px;
+  /* border-bottom-left-radius: 15px; Arredondar canto abaixo e esquerdo */
+  /* border-bottom-right-radius: 15px; Arredondar canto abaixo e direto */
+  /* border-color: #006ccb; */
+  /* border-bottom: 0.1px solid #000000; */
+  color: black;
+  text-decoration: none;
+  /* font-family: sans-serif; */
+  /* font-family: 'Abel', sans-serif; */
+  /* font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  transition: 0.3s;
+  text-align: center;
+  padding: 0 0.4em 0.2em 0.4em; /* top - rigth - botton - left */
+}
+#menu a:hover {
+  /* background: rgba(0, 0, 0, 0.05); */
+  font-size: 24px;
+  /* border-bottom-left-radius: 15px; */
+  /* border-bottom-right-radius: 15px; */
+  /* border-color: #006ccb; */
+  border-left: 4px solid #26ff00;
+  box-shadow: 1px 1px 2px #969696;
+}
+
 #logo {
     font-size: 1.5rem;
 }
