@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +12,9 @@
 <body>
     <!-- início menu -->
     <header id="header">
-        <a id="logo" href="index.html"><img src="../booyah do j/img/logo/logo tipo booyah do j.png" alt="logo empresa modelo"></a>
+        <a id="logo" href="index.html"><img src="./img/logo/logo tipo booyah do j.png" alt="logo empresa modelo"></a>
         <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
-                aria-expanded="false">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu">
@@ -28,51 +28,52 @@
     <!-- fim menu -->
 
     <!-- início formuário contato -->
-<section class="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <div class="section-title">
-                    <h2>entre em contato conosco!</h2>
-                    <p><b>Fomulário de contato</b> criado para melhor atender nossos clientes</p>
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="section-title">
+                        <h2>entre em contato conosco!</h2>
+                        <p><b>Fomulário de contato</b> criado para melhor atender nossos clientes</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-ld-7">
-                <form action="/" class="mb-4 mb-lg-0">
-                    <div class="form-row">
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" placeholder="Insira seu nome completo" />
+            <div class="row">
+                <div class="col-ld-7">
+                    <form action="/" class="mb-4 mb-lg-0">
+                        <div class="form-row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Insira seu nome completo" />
+                            </div>
+                            <div class="com-md-6 form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Insira seu email">
+                            </div>
                         </div>
-                        <div class="com-md-6 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Insira seu email">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto(Elogios, reclamações ou solicitações)">
                         </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" placeholder="Insira sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.5557605139197!2d-47.4801533!3d-23.476483549999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f5236577c369%3A0xca9cb28a14d35398!2sVila%20Leopoldina%2C%20Sorocaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1701531585634!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto(Elogios, reclamações ou solicitações)">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" id="message" placeholder="Insira sua mensagem"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-light">Enviar</button>
-                </form>
-            </div>
-            <div class="col-lg-5">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.5557605139197!2d-47.4801533!3d-23.476483549999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5f5236577c369%3A0xca9cb28a14d35398!2sVila%20Leopoldina%2C%20Sorocaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1701531585634!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+            <!-- início espaço de marketing -->
+            <div class="market-place">
+                <figure>
+                    <a href="#"><img src="./img/gif/gif.gif"marketing diversos"></a>
+                </figure>
+            </div>
+            <!-- fim espaço de marketing -->
         </div>
-        <!-- início espaço de marketing -->
-        <div class="market-place">
-        <figure>
-        <a href="#"><img src="./img/gif/gif.gif"marketing diversos"></a>
-        </figure>
-    </div>
-    <!-- fim espaço de marketing -->
-    </div>
-</section>
+    </section>
 
 
     <!-- fim formuário contato -->
@@ -80,8 +81,8 @@
     <!-- início whatsapp -->
     <div class="whatsapp">
         <div class="container-grid logo-whats">
-            <a href="https://wa.link/iqgsku" target="_blank"">
-        <img class=" pulse" src="./img/rede_social/zap 3.png"alt="contato whatsapp">
+            <a href="https://wa.link/iqgsku" target="_blank" ">
+        <img class=" pulse " src="./img/rede_social/zap 3.png "alt="contato whatsapp ">
             </a>
         </div>
 
@@ -89,22 +90,17 @@
 
     <!-- fim whatsapp -->
     <!-- início footer -->
-    <footer class="rodape">
-        <div class="container">
-            <div class="row m-0">
+    <footer class="rodape ">
+        <div class="container ">
+            <div class="row m-0 ">
                 <!-- início logo -->
-                <div id="logo-rodape" class="col-md-4">
-                    <figure>
-                        <div class="">
-                            <img src="./img/logo/logo tipo booyah do j.png" alt="logo rodape">
-                    </figure>
-                </div>
+                
 
                 <!-- fim logo -->
                 <!-- início texto -->
 
-                <div class="col-md-4">
-                    <div class="info-contato">
+                <div class="col-md-4 ">
+                    <div class="info-contato ">
                         <p>Email:</p>
                         <p>jeanluiz.2003@gmail.com</p><br>
                         <p>Endereço</p>
@@ -115,25 +111,25 @@
                 </div>
                 <!-- fim logo -->
                 <!-- início mídias sociais -->
-                <div class="col-md-4">
-                    <figure class="redes-sociais">
-                        <a href="https://www.facebook.com"><img src="./img/rede_social/face.png" alt="facebook"></a>
-                        <a href="https://www.instagram.com"><img src="./img/rede_social/insta.png" alt="instagram"></a>
-                        <a href="https://www.youtube.com"><img src="./img/rede_social/youtuber.png" alt="youtube"></a>
-                        <a href="https://www.linkedin.com"><img src="./img/rede_social/linkedin.png" alt="linkedin"></a>
+                <div class="col-md-4 ">
+                    <figure class="redes-sociais ">
+                        <a href="https://www.facebook.comtede_social/face.png " alt="facebook "></a>
+                        <a href="https://www.instagram.com "><img src="./img/rede_social/insta.png " alt="instagram "></a>
+                        <a href="https://www.youtube.com "><img src="./img/rede_social/youtuber.png " alt="youtube "></a>
+                        <a href="https://www.linkedin.com "><img src="./img/rede_social/linkedin.png " alt="linkedin "></a>
                     </figure>
                     <br>
-                    <a class="linkfooter" href="./index.html">Home</a>
-                    <a class="linkfooter" href="./prod.html">produtos</a>
-                    <a class="linkFooter" href="./acessorios.html">Acessorios</a>
-                    <a class="linkfooter" href="./contato.html">Contato</a>
+                    <a class="linkfooter " href="./index.html ">Home</a>
+                    <a class="linkfooter " href="./prod.html ">Produtos</a>
+                    <a class="linkfooter " href="./acessorios.html ">Acessorios</a>
+                    <a class="linkfooter " href="./contato.html ">Contato</a>
                    
                 </div>
                 <!-- alt + shift + o click do mouse, seleciona varias linhas -->
                 <!-- fim mídias sociais -->
                 <!-- início direitos autorais -->
-                <div class="col-12">
-                    <p class="direitos">Todos direitos reservados &copy; booyahdoj</p>
+                <div class="col-12 ">
+                    <p class="direitos ">Todos direitos reservados &copy; booyahdoj</p>
                 </div>
                 <!-- fim direitos autorais -->
             </div>
@@ -142,14 +138,14 @@
     <!-- fim footer -->
 </body>
 
-<script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript " src="./bootstrap/js/bootstrap.bundle.min.js "></script>
 
 
 <!-- Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js "></script>
 
-<script type="text/javascript" src="./js/script_menu.js"></script>
+<script type="text/javascript " src="./js/script_menu.js "></script>
 
 </html>
